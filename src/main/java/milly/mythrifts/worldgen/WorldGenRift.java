@@ -28,12 +28,14 @@ public class WorldGenRift extends WorldGenerator /*implements IWorldGenerator*/ 
         int y = getGroundFromAbove(worldIn, position.getX(), position.getZ());
 
         if (y >= position.getY()) {
-            BlockPos riftPos = new BlockPos(position.getX(), y, position.getZ());
-            BlockPos riftTopPos = new BlockPos(position.getX(), y + 1, position.getZ());
+            BlockPos riftPos = new BlockPos(position.getX(), y + 1, position.getZ());
+            BlockPos riftTopPos = new BlockPos(position.getX(), y + 2, position.getZ());
             Block toReplace = worldIn.getBlockState(riftPos).getBlock();
-            if (toReplace == Blocks.AIR) {
-                worldIn.setBlockState(riftPos, riftBlock.getDefaultState(), 2);
-                worldIn.setBlockState(riftTopPos, riftBlock.getDefaultState(), 2);
+
+            Material GRRR = toReplace.getMaterial(toReplace.getDefaultState());
+            if (toReplace == Blocks.AIR || toReplace.getMaterial(toReplace.getDefaultState()) == Material.PLANTS) {
+                worldIn.setBlockState(riftPos, riftBlock.getDefaultState());
+                worldIn.setBlockState(riftTopPos, riftBlock.getDefaultState());
             }
         }
         return false;
@@ -45,7 +47,7 @@ public class WorldGenRift extends WorldGenerator /*implements IWorldGenerator*/ 
         while (!foundGround && y-- >= 0) {
             Block blockAt = world.getBlockState(new BlockPos(x, y, z)).getBlock();
             // "ground" for our bush is grass or dirt
-            // foundGround = blockAt == Blocks.DIRT || blockAt == Blocks.GRASS;
+            foundGround = blockAt == Blocks.DIRT || blockAt == Blocks.GRASS || blockAt == Blocks.SAND || blockAt == Blocks.STONE || blockAt == Blocks.GRAVEL;
         }
 
         return y;

@@ -1,12 +1,14 @@
 package milly.mythrifts;
 
 import milly.mythrifts.proxy.CommonProxy;
+import milly.mythrifts.worldgen.MythRiftsWorldGenerator;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid=MythRifts.MODID, name = MythRifts.NAME, version = MythRifts.VERSION)
 public class MythRifts {
@@ -33,6 +35,8 @@ public class MythRifts {
     @EventHandler
     public void init (FMLInitializationEvent event){
 
+        //Add Worldgen
+        GameRegistry.registerWorldGenerator(new MythRiftsWorldGenerator(), 5);
     }
 
     @EventHandler
