@@ -26,18 +26,15 @@ public class MythRiftsWorldGenerator implements IWorldGenerator {
     private void generateOverworld(World world, Random random, int blockX, int blockZ) {
         WorldGenerator genRifts= new WorldGenRift();
 
-        // How many per chunk
-        int MIN = 4;
-        int MAX = 12;
-        int numRifts = MIN + random.nextInt(MAX - MIN);
+        //Random float below 1 to compare with spawnrate
+        float genFloat = random.nextFloat() * (1);
 
-        for (int i = 0; i < numRifts; i++){
+        if (genFloat <= WorldGenRift.SPAWN_RATE){
             int randX = blockX + random.nextInt(16);
             int randZ = blockZ + random.nextInt(16);
 
             // Y value is minimum height to spawn at
-            genRifts.generate(world, random, new BlockPos(randX, 24, randZ));
+            genRifts.generate(world, random, new BlockPos(randX, WorldGenRift.MIN_SPAWN_HEIGHT, randZ));
         }
-
     }
 }

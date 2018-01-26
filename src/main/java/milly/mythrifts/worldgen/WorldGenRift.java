@@ -1,6 +1,8 @@
 package milly.mythrifts.worldgen;
 
+import milly.mythrifts.MythRifts;
 import milly.mythrifts.common.block.BlockTestBlock;
+import milly.mythrifts.common.init.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
@@ -16,14 +18,15 @@ import java.util.Random;
 
 public class WorldGenRift extends WorldGenerator /*implements IWorldGenerator*/ {
 
-    public WorldGenRift() {
-//        rift = new WorldGen
-    }
+    // TODO: Make editable in a config file
+    public static final int MIN_SPAWN_HEIGHT = 0;
+    public static final int MAX_SPAWN_HEIGHT = 255;
+    public static final float SPAWN_RATE = 1f; // between 0 and 1
 
     @Override
     public boolean generate(World worldIn, Random rand, BlockPos position) {
 
-        Block riftBlock = new BlockTestBlock();
+        Block riftBlock = ModBlocks.TestBlock;
 
         int y = getGroundFromAbove(worldIn, position.getX(), position.getZ());
 
@@ -32,7 +35,6 @@ public class WorldGenRift extends WorldGenerator /*implements IWorldGenerator*/ 
             BlockPos riftTopPos = new BlockPos(position.getX(), y + 2, position.getZ());
             Block toReplace = worldIn.getBlockState(riftPos).getBlock();
 
-            Material GRRR = toReplace.getMaterial(toReplace.getDefaultState());
             if (toReplace == Blocks.AIR || toReplace.getMaterial(toReplace.getDefaultState()) == Material.PLANTS) {
                 worldIn.setBlockState(riftPos, riftBlock.getDefaultState());
                 worldIn.setBlockState(riftTopPos, riftBlock.getDefaultState());
@@ -42,9 +44,9 @@ public class WorldGenRift extends WorldGenerator /*implements IWorldGenerator*/ 
     }
 
     public static int getGroundFromAbove(World world, int x, int z) {
-        int y = 255;
+        int y = WorldGenRift.MAX_SPAWN_HEIGHT;
         boolean foundGround = false;
-        while (!foundGround && y-- >= 0) {
+        while (!foundGround && y-- >= MIN_SPAWN_HEIGHT) {
             Block blockAt = world.getBlockState(new BlockPos(x, y, z)).getBlock();
             // "ground" for our bush is grass or dirt
             foundGround = blockAt == Blocks.DIRT || blockAt == Blocks.GRASS || blockAt == Blocks.SAND || blockAt == Blocks.STONE || blockAt == Blocks.GRAVEL;

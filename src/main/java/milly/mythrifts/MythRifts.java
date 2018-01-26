@@ -36,7 +36,7 @@ public class MythRifts {
     public void init (FMLInitializationEvent event){
 
         //Add Worldgen
-        GameRegistry.registerWorldGenerator(new MythRiftsWorldGenerator(), 5);
+        GameRegistry.registerWorldGenerator(new MythRiftsWorldGenerator(), 10);
     }
 
     @EventHandler

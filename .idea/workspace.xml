@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ed49b8-1f5e-41ad-a887-329e158eeaf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/proxy/ServerProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/Structures/StructureRift.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/production/MythRifts_main/milly/mythrifts/MythRifts.class" afterPath="$PROJECT_DIR$/build/classes/production/MythRifts_main/milly/mythrifts/MythRifts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/production/MythRifts_main/milly/mythrifts/proxy/CommonProxy.class" afterPath="$PROJECT_DIR$/build/classes/production/MythRifts_main/milly/mythrifts/proxy/CommonProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/production/MythRifts_main/assets/mythrifts/blockstates/test_block.json" afterPath="$PROJECT_DIR$/build/classes/production/MythRifts_main/assets/mythrifts/blockstates/test_block.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/milly/mythrifts/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/mythrifts/blockstates/test_block.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/mythrifts/blockstates/test_block.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java" afterPath="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java" />
     </list>
     <ignored path="MythRifts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MythRifts.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MythRifts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="360">
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -73,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldGenRift.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WorldGenRift.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+            <state relative-caret-position="440">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,21 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_block.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mythrifts/blockstates/test_block.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MythRiftsWorldGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="322">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -702,11 +683,11 @@
         <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/Structures/StructureBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/Structures/StructureRift.java" />
         <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/proxy/CommonProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/common/block/BlockTestBlock.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/mythrifts/blockstates/test_block.json" />
-        <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java" />
         <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java" />
       </list>
     </option>
   </component>
@@ -1192,6 +1173,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MythRifts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MythRifts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="run" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1762,7 +1757,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1771,7 +1766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1824,7 +1818,7 @@
         <state relative-caret-position="160">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1905,14 +1899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.1.2590/snapshot/20171003/forgeSrc-1.12.2-14.23.1.2590-sources.jar!/net/minecraft/world/gen/feature/WorldGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/common/init/ModBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -1936,7 +1922,7 @@
         <state relative-caret-position="140">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2155,19 +2141,9 @@
         <state relative-caret-position="177">
           <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding>
-            <element signature="e#7353#7354#0" expanded="true" />
-            <element signature="e#35931#35932#0" expanded="true" />
-            <element signature="e#35976#35977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="e#35931#35932#0" expanded="false" />
+            <element signature="e#35976#35977#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2180,6 +2156,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.1.2590/snapshot/20171003/forgeSrc-1.12.2-14.23.1.2590-sources.jar!/net/minecraft/world/gen/feature/WorldGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="487" column="17" selection-start-line="487" selection-start-column="17" selection-end-line="487" selection-end-column="17" />
+          <folding>
+            <element signature="e#19076#19077#0" expanded="false" />
+            <element signature="e#19128#19129#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/common/block/BlockTestBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -2188,21 +2191,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/MythRiftsWorldGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        <state relative-caret-position="322">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/MythRifts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/milly/mythrifts/worldgen/WorldGenRift.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="440">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
